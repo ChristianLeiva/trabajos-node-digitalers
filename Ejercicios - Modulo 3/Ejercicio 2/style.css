@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+h1,p,button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+    color: #0a2ff1;
+}
+h1{
+    text-align: justify;
+}
+p, span,button{
+    font-weight: 400;
+    color: #0a2ff1;
+    background-color: #eff2ff;
+    font-size: 34px;
+}
+p{
+    display: inline;
+}
+span{
+    font-weight: 700;
+}
+button{
+    margin-top: 15px;
+    background-color: #8a9af1;
+    color: white;
+    margin-bottom: 1%;
+    border: none;
+}
+
+footer{
+    border: 5px solid #3ffff3;
+}

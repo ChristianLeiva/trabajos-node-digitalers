@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;  
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+h2,p{
+    font-weight: 300;
+    font-size: 32px;
+    color: #04146c;
+}
+#puntuacion{
+    width: 30%;
+}
+strong{
+    font-weight: 700;
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+}
+div{
+    margin: 50px;
+}

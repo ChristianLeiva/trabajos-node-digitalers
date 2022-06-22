@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    grid-template-areas: 
+    "header menu menu menu"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "main main .  image"
+    "main main .  image"
+    "main main . extra"
+    "main main . extra"
+    "banner banner banner banner"
+    "banner banner banner banner";
+}
+
+div{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header{
+    grid-area: header;
+    background-color: black ;
+}
+#menu{
+    grid-area: menu;
+    background-color:  #e93d4e ;
+}
+#hero{
+    grid-area: hero;
+    background-color:  #4c8bbd;
+}
+#main{
+    grid-area: main;
+    background-color:  #1f2d44;
+}
+#image{
+    grid-area: image;
+    background-color:  #969ba4 ;
+}
+#extra{
+    grid-area: extra;
+    background-color:  #51877c ;
+}
+#banner{
+    grid-area: banner;
+    background-color:#ecdb9c;
+    color: black;
+}
+
+
+/* Tablet */
+
+@media(max-width: 768px){
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(13, 1fr);
+        grid-template-areas: 
+        "header header header header"
+        "hero hero hero hero"
+        "hero hero hero hero"
+        "hero hero hero hero"  
+        "hero hero hero hero"
+        "menu main main main"
+        "menu main main main"
+        "menu main main main"
+        "menu main main main"
+        "menu banner banner banner"
+        "menu banner banner banner"
+        "menu extra extra image"
+        "menu extra extra image";
+    }
+}
+
+/* Mobile */
+
+@media(max-width:320px){
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+        grid-template-areas: 
+        "header"
+        "menu"
+        "hero"
+        "hero"  
+        "hero"
+        "main"
+        "main"
+        "main"
+        "banner"
+        "banner"
+        "extra"
+        "extra"
+        "image"
+        "image";
+    }
+    
+}

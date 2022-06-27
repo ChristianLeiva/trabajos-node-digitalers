@@ -26,11 +26,10 @@ npx sequelize-cli db:seed:all
 ``` bash
 npm start
 ```
-5) 
-Admin and standard users:
+5) Admin and standard users:
 ``` bash
 When executing the seeders, 10 admin users and 10 standard users will be created.
 
-password f or admin users: userAdmin2022
-password f or admin standar: userStandar2022
+password for admin users: userAdmin2022
+password for admin standar: userStandar2022
 ```

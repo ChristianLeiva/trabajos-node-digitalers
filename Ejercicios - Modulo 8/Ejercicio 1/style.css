@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
+body{
+    font-family: 'Mulish', sans-serif;
+    padding-left: 25px;
+}
+.container{
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "imagen1 imagen2 imagen3"
+    "imagen1 imagen4 imagen4";
+    gap: 16px;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.imagen1{
+    grid-area: imagen1;
+}
+.imagen2{
+    grid-area: imagen2;
+}
+.imagen3{
+    grid-area: imagen3;
+}
+.imagen4{
+    grid-area: imagen4;
+}
+h3,h1,p{
+    font-weight: 400;
+    font-size: 40px;
+    color: #0a2ff1;
+}
+h3{
+    margin-bottom: 0;
+}
+h1{
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 80px;
+}
+p{
+    color: #04146c;    
+}

@@ -7,42 +7,6 @@
     <title>Ejercicio 2 - Modulo 13</title>
 </head>
 <body>
-    <script>
-        var Ofertas = [
-            {
-                nombre: "Plan001",
-                capital: 150000,
-                plazo: 30,
-                tasa: 0.15
-            },
-            {
-                nombre: "Plan002",
-                capital: 300000,
-                plazo: 180,
-                        tasa: 0.1
-            },
-            {
-                nombre: "Plan003",
-                capital: 485000,
-                plazo: 60,
-                tasa: 0.23
-            }
-        ];
-        let ofertaConInteres = [];
-        let interesGanado = 0;
-        for (let i = 0; i < Ofertas.length; i++){
-        interesGanado = (Ofertas[i].capital * Ofertas[i].plazo * Ofertas[i].tasa) / 100;
-        
-        ofertaConInteres.push({
-            nombre: Ofertas[i].nombre,
-            capital: Ofertas[i].capital,
-            plazo: Ofertas[i].plazo,
-            interesGanado: interesGanado
-
-        });
-        }
-        console.log(ofertaConInteres)
-
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>

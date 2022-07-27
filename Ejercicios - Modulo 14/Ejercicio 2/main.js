@@ -19,8 +19,12 @@ var Ofertas = [
     }
 ];
 
-const consulta = Ofertas.map(el =>{
-    return interesGanado  = (el.capital * el.plazo * el.tasa)/ 100;
-})
-Ofertas.push(...[consulta])
-console.log(Ofertas)
+const calcularIntereses = (arr) =>{
+    const consulta = arr.map(el =>{
+        return interesGanado  = (el.capital * el.plazo * el.tasa)/ 100;
+    })
+    arr.push(...[consulta])
+    return arr
+}
+
+console.log(calcularIntereses(Ofertas))

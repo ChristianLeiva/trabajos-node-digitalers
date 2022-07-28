@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,h2{
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+h2{
+    font-weight: 400;
+}
+.container,#buttons{
+    display: flex;
+    justify-content: space-around;
+}
+#formulario1, #formulario2{
+    font-weight: 300;
+    width: 45%;
+    height: 650px;
+    background-color: rgba(8, 106, 233, 0.247);
+    border: 2px solid black;
+}
+label, input,select{
+    padding: 10px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+input{
+    margin-left: 150px;
+}
+button{
+    margin-top: 100px;
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    font-weight: 400;
+}
+p{
+    font-weight: 700;
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercio 1 Modulo 15</title>
+</head>
+<body>
+    <h1>Calcular Punto de Equilibrio</h1>
+    <div class="container">
+        <div class="formulario1">
+            <form id="dataIn">
+                <label for="">Costos Fijos:
+                    <br>
+                    <input type="number" id="costoFijo" placeholder="Costos fijos" required>
+                </label>
+                <br>
+                <label for="">Precios de venta:
+                    <br>
+                    <input type="number" id="precioVenta" placeholder="Precios de venta" required>
+                </label>
+                <br>        
+                <label for="">Costos de Variable:
+                    <br>
+                    <input type="number" id="costoVariable" placeholder="Costos de Variable" required>
+                </label>
+                <br>       
+
+                <div id="container">
+                    <button type="reset" >Reset</button>
+                    <button type="submit" id="button">Calcular</button>
+                </div>
+            </form>
+        </div>
+        <div class="formualario2">
+            <form id="dataOut">
+                <label for="">Punto de equilibrio
+                    <br>
+                    <input type="number" id="puntoEquilibrio" readonly>
+                </label>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>

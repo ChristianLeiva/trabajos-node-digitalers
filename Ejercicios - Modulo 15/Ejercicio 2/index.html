@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 2 Modulo 15</title>
+</head>
+<body>
+    <h1>Calculadora de Presupuesto</h1>
+    <div class="container">
+        <div id="formulario1">
+            <h2>Ingrese el monto</h2>
+            <form id="form1">
+                <label for="">Dinero
+                    <br>
+                    <input type="number" id="dinero" required>
+                </label>
+                <br>
+                <label>
+                    Gastos necesarios
+                    <br>
+                    <select name="" id="gastosNecesarios">
+                        <option value="0.1">10%</option>
+                        <option value="0.2">20%</option>
+                        <option value="0.3">30%</option>                        
+                        <option value="0.4">40%</option>
+                        <option value="0.5">50%</option>
+                        <option value="0.6">60%</option>
+                        <option value="0.7">70%</option>
+                        <option value="0.8">80%</option>
+                        <option value="0.9">90%</option>
+                        <option value="1">100%</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    Gastos opcionales
+                    <br>
+                    <select name="" id="gastosOpcionales">
+                        <option value="0.1">10%</option>
+                        <option value="0.2">20%</option>
+                        <option value="0.3">30%</option>                        
+                        <option value="0.4">40%</option>
+                        <option value="0.5">50%</option>
+                        <option value="0.6">60%</option>
+                        <option value="0.7">70%</option>
+                        <option value="0.8">80%</option>
+                        <option value="0.9">90%</option>
+                        <option value="1">100%</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    Ahorro
+                    <br>
+                    <select name="" id="ahorro">
+                        <option value="0.1">10%</option>
+                        <option value="0.2">20%</option>
+                        <option value="0.3">30%</option>                        
+                        <option value="0.4">40%</option>
+                        <option value="0.5">50%</option>
+                        <option value="0.6">60%</option>
+                        <option value="0.7">70%</option>
+                        <option value="0.8">80%</option>
+                        <option value="0.9">90%</option>
+                        <option value="1">100%</option>
+                    </select>
+                </label>
+                <div id="error"></div>
+                <div id="buttons">
+                    <button type="reset" id="buttonReset">Reset</button>
+                    <button type="submit" id="buttonSubmit">Calcular</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="formulario2">
+            <h2>Presupuesto</h2>
+
+            <label for="">Gastos necesario:
+                <br>
+                <input type="text" id="resultGastosNecesarios"></label>
+            <br>
+            <label for="">Gastos opcionales:
+                <br>
+                <input type="text" id="resultGastosOpcionales"></label>
+            <br>
+            <label for="">Ahorro:
+                <br>
+                <input type="text" id="resultAhorro"></label>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

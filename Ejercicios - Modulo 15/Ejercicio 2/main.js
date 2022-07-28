@@ -1,4 +1,4 @@
-const buttons = document.querySelector("#buttonSubmit").addEventListener("click", (e)=>{
+const buttonSubmit = document.querySelector("#buttonSubmit").addEventListener("click", (e)=>{
     e.preventDefault()
     const money = document.querySelector("#dinero").value;
     const necessaryExpenses = document.querySelector("#gastosNecesarios").value;
@@ -17,4 +17,8 @@ const buttons = document.querySelector("#buttonSubmit").addEventListener("click"
     }
 
 
+})
+
+const buttonReset = document.querySelector("#buttonReset").addEventListener("click", (e) =>{
+    document.querySelector("#error").innerHTML = ""
 })

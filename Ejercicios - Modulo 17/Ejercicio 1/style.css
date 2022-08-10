@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;0,900;1,400&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 98%;
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+h2{
+    font-weight: 900;
+    text-align: center;
+}
